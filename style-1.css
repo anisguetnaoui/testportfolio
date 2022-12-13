@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    font-family: sans-serif;
+  }
+  
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #353353;
+    z-index: 1;
+  }
+  
+  main {
+    width: 100%;
+    line-height: 2rem;
+    font-size: 20px;
+    height: 100vh;
+    overflow: auto;
+    padding: 2rem 25vw;
+    text-align: justify;
+  }
+  
+  main::-webkit-scrollbar {
+    background-color: #dedede;
+    width: 0.5rem;
+  }
+  main::-webkit-scrollbar-thumb {
+    background-color: #757575;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 2rem 0 4rem 0;
+  }
+  
+  .nav-latteral {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background-color: white;
+    z-index: 3;
+    height: 100vh;
+    width: max-content;
+    transition: all 0.1s ease;
+  }
+  
+  #nav-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    display: none;
+  }
+  
+  #nav-wrapper.active {
+    display: block;
+  }
+  
+  #nav-close {
+    margin-bottom: 4rem;
+  }
+  
+  .nav-links {
+    padding: 1rem 6rem 1rem 3rem;
+  }
+  
+  .nav-link {
+    cursor: pointer;
+    font-size: 25px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link:hover {
+    color: lightcoral;
+  }
+  
+  .nav-link ion-icon {
+    margin-right: 15px;
+  }
+  
+  .nav-link,
+  .nav-button {
+    transition: all 0.2s ease;
+  }
+  
+  .nav-button {
+    font-size: 40px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .nav-button:hover {
+    color: orange;
+    background-color: #dedede;
+  }
+  
+  
+  body {
+    background-color: #353353;
+  }
+  
+  #moncercle{
+    background:#000000;
+    border-radius:50%;
+    width:160px;
+    height:160px;
+
+    margin-top: 100px;
+  }
+  
+  .prenom{
+    text-align: center;
+  }
+  
+  .etudiant{
+    text-align: center;
+  }
+  
+
+  h1.prenom{
+    margin-bottom: 0;
+  }
+  
+  
+  .linkedin,.insta,.twitter{
+    height: 50px;
+    width: 50px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
+
+  .profil-img {
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+
+  .insta {
+    margin: 0 15px;
+  }
+  
+  
+  .social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+    margin-top: 10px;
+  }
+  
+  .prenom,.etudiant{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .profil{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    /* margin-right: 900px; */
+    margin-top: 70px;
+    text-align: left;
+
+  }
+
+  .profil1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-left: 75px;
+    margin-right: 0px;
+
+    position: relative;
+  }
+
+  .profil-img {
+    float: left;
+  }
+
+  .profil-text {
+    float: right;
+  }  
+
+  .main{
+    width: 100%;
+  }
